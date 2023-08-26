@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.b-black{
+    border: 1px solid black;
+}
+
+.btn{
+    background: linear-gradient(45deg, #10c1a0, #c2e9ca);
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all 1s ease;
+    color: #4c4e50;
+}
+.btn:hover{
+    color: white;
+    background:linear-gradient(45deg, #006c59);
+}
