@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../components/Nav";
-import Footer from "../components/Footer"
 import SearchResult from "../components/SearchResult";
 import Image from "./Image"
 import {Routes , Route} from "react-router-dom"
@@ -18,7 +17,6 @@ const SearchPage = () => {
             <Route path="imagesearch" element={<Image/>}/>
             {/* <Route path="videosearch" element={<Video/>}/> */}
         </Routes>
-        <Footer/>
     </div>
   );
 };
