@@ -1,16 +1,17 @@
 import React from "react";
-import Nav from "./components/Nav";
-
-import SearchResult from "./components/SearchResult";
+import { Routes ,Route} from "react-router-dom";
+import Main from "./page/Main";
+import SearchPage from "./page/SearchPage";
 
 
 function App() {
  
   return (
     <div className="App bg-[#080834] text-white">
-      <Nav/>
-      <SearchResult/>
-      
+       <Routes>
+        <Route path="/" element={<Main/>}/>
+        <Route path="/searchpage/*" element={<SearchPage/>}/>
+      </Routes> 
     </div>
   );
 }
