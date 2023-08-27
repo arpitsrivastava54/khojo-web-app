@@ -36,8 +36,8 @@ const Main = () => {
 
 
   return (
-    <div className="h-[90vh] w-[100vw] ">
-      <div className="container flex justify-center items-center h-full flex-col gap-5">
+    <div className="h-[90vh]">
+      <div className="w-[100vw]container flex justify-center items-center h-full flex-col gap-6">
         <div className="logo text-8xl font-bold">
           <span className="text-red-600">K</span>
           <span className="text-green-600">h</span>
